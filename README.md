@@ -105,5 +105,3 @@ Contributions, suggestions, and corrections are welcome!
 Feel fre to open issues or pull requests to improve the materials or add new learning resources.
 
 
-Happy Learning!
-Feel free to reach out with questions or ideas for further notebooks.

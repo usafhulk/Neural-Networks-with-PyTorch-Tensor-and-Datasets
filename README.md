@@ -1,5 +1,3 @@
-# Neural-Networks-with-PyTorch
-
 # Neural Networks with PyTorch: Tensors and Datasets
 
 Welcome to the **Neural Networks with PyTorch: Tensors and Datasets** repository!  

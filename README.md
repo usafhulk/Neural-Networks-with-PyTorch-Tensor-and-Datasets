@@ -1,7 +1,7 @@
 # Neural Networks with PyTorch: Tensors and Datasets
 
 Welcome to the **Neural Networks with PyTorch: Tensors and Datasets** repository!  
-This project is a hands-on introduction to core PyTorch concepts, focusing on manipulating tensors, creating and transforming datasets, and understanding the foundational mechanics behind neural networks in PyTorch. Each Jupyter Notebook in this repository is a step-by-step learning resource, complete with code, explanations, and practical exercises.
+This repository is a hands-on introduction to core PyTorch concepts, focusing on manipulating tensors, creating and transforming datasets, and understanding the foundational mechanics behind neural networks in PyTorch. Each Jupyter Notebook in this repository is a step-by-step process that demonstrates my ability to work with these introductory PyTorch concepts.
 
 ## Table of Contents
 
@@ -9,13 +9,12 @@ This project is a hands-on introduction to core PyTorch concepts, focusing on ma
 - [Notebooks](#notebooks)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
 ## Overview
 
-This repository is designed for learners who want a practical, example-driven approach to PyTorch. The notebooks cover:
+This repository is designed to demonstrate my skillset with practical, step-by-step approach to PyTorch. The notebooks cover:
 
 - The basics of 1D and 2D tensors in PyTorch and related data types
 - Indexing, slicing, and manipulating tensors
@@ -23,7 +22,6 @@ This repository is designed for learners who want a practical, example-driven ap
 - Using pre-built datasets and torchvision transforms
 - Understanding PyTorch’s autograd system for derivatives and computational graphs
 
-Whether you are a beginner or refreshing your PyTorch skills, these notebooks will help you build a strong foundation for deep learning projects.
 
 ---
 
@@ -101,5 +99,5 @@ Open the notebook you want to explore and follow the instructions inside.
 **Contributing**
 Contributions, suggestions, and corrections are welcome!
 Feel fre to open issues or pull requests to improve the materials or add new learning resources.
-
+---
 

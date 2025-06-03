@@ -82,23 +82,25 @@ Understand PyTorch’s autograd and computational graphs:
    ```bash
    git clone https://github.com/usafhulk/Neural-Networks-with-PyTorch-Tensor-and-Datasets.git
    cd Neural-Networks-with-PyTorch-Tensor-and-Datasets
-Install dependencies:
+2. **Install dependencies:**
 
-Python 3.7 or newer
-PyTorch
-torchvision
-numpy, pandas, matplotlib, jupyter
-Install with pip:
+- Python 3.7 or newer
+- PyTorch
+- torchvision
+- numpy, pandas, matplotlib, jupyter
+3. **Install with pip:**
 
-bash
+```bash
 pip install torch torchvision numpy pandas matplotlib jupyter
-Run the notebooks:
+```
+3. **Run the notebooks:**
 
-bash
+```bash
 jupyter notebook
+```
 Open the notebook you want to explore and follow the instructions inside.
 
-Contributing
+**Contributing**
 Contributions, suggestions, and corrections are welcome!
 Feel fre to open issues or pull requests to improve the materials or add new learning resources.
 

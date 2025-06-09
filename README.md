@@ -1,17 +1,24 @@
 # Neural Networks with PyTorch: Tensors and Datasets
 
 ## Overview
-Welcome to my hands-on exploration of neural networks using PyTorch! This repository is my journey through the foundational concepts of AI, focusing on tensors, datasets, and linear regression. I’ve organized the content into clear, progressive modules, each with interactive Jupyter notebooks that make learning and experimentation easy.
+
+Welcome to my hands-on exploration of neural networks using PyTorch! This repository is a comprehensive, project-based journey through foundational AI concepts, focusing on tensors, datasets, and various forms of linear regression. Each topic is organized into progressive, self-contained modules—delivered as interactive Jupyter notebooks—making it easy to follow, experiment, and deepen your understanding.
+
+---
 
 ## Why This Repo Is a Strong Portfolio Piece
 
-- **Practical, Notebook-Centric Learning:** I’ve developed and structured each topic as a Jupyter notebook, allowing anyone (including myself) to interactively run, modify, and explore the code.
-- **Clear Progression:** I start with the basics of tensor operations and build up to more advanced topics like gradient descent and mini-batch training, mimicking real-world learning and project workflows.
-- **Mastery of PyTorch:** This project demonstrates my ability to work with one of the most popular deep learning frameworks in the industry.
-- **Applied Data Science Skills:** I tackle dataset creation, transformation, and model training—all essential skills for AI and data science.
-- **Portfolio-Ready Artifacts:** Each notebook stands alone as a demonstration of my technical and analytical skills.
+- **End-to-End Structure:** The repo showcases my ability to design a complete learning path from basic tensor operations to advanced regression topics, mirroring real-world project development.
+- **Interactive, Notebook-Centric Learning:** Every subject is presented as a Jupyter notebook, encouraging hands-on experimentation and making each artifact portfolio-ready.
+- **Mastery of Modern Deep Learning Tools:** Demonstrates practical skills in PyTorch, a leading AI framework, including dataset handling, model training, and advanced optimization.
+- **Scalable and Modular:** The clear folder/module approach allows both recruiters and collaborators to quickly navigate topics and find demonstrations of specific skills.
+- **Strong Data Science Foundations:** Covers data processing, model building, and evaluation—core competencies for any AI or data science role.
+
+---
 
 ## Contents
+
+All modules are under the folder **Introduction to Neural Networks and PyTorch**:
 
 ### 1. Tensor and Datasets
 - `1D tensors.ipynb`
@@ -33,17 +40,25 @@ Welcome to my hands-on exploration of neural networks using PyTorch! This reposi
 - `Stohastic Gradiant Descent (SGD).ipynb`
 - `Two Parameter Mini-Batch Gradient Descent.ipynb`
 
+### 4. Multiple Input Output Linear Regression
+- `Linear Regression with Multiple Outputs.ipynb`
+- `Multiple Linear Regression (MLR).ipynb`
+
+---
+
 ## Getting Started
 
 If you want to dive in and explore these notebooks yourself:
 
 ### Clone the repository:
+
 ```bash
 git clone https://github.com/usafhulk/Neural-Networks-with-PyTorch-Tensor-and-Datasets.git
 cd Neural-Networks-with-PyTorch-Tensor-and-Datasets
 ```
 
 ### Set up your environment:
+
 I recommend using a virtual environment:
 
 ```bash
@@ -59,6 +74,7 @@ pip install torch torchvision matplotlib jupyter
 ```
 
 ### Run the notebooks:
+
 Launch Jupyter Notebook:
 
 ```bash
@@ -67,9 +83,12 @@ jupyter notebook
 
 Then open any notebook you want from your browser.
 
-### Experiment and learn:
+---
+
+## Experiment and Learn
+
 All notebooks are independent. Feel free to run, tweak, and build on them to deepen your understanding of neural networks and PyTorch.
 
 ---
 
-Let me know if you want to personalize this even further or add a message to recruiters or collaborators!
+*Let me know if you want to personalize this further or add a message to recruiters or collaborators!*

@@ -1,103 +1,75 @@
 # Neural Networks with PyTorch: Tensors and Datasets
 
-Welcome to the **Neural Networks with PyTorch: Tensors and Datasets** repository!  
-This repository is a hands-on introduction to core PyTorch concepts, focusing on manipulating tensors, creating and transforming datasets, and understanding the foundational mechanics behind neural networks in PyTorch. Each Jupyter Notebook in this repository is a step-by-step process that demonstrates my ability to work with these introductory PyTorch concepts.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Notebooks](#notebooks)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-
----
-
 ## Overview
+Welcome to my hands-on exploration of neural networks using PyTorch! This repository is my journey through the foundational concepts of AI, focusing on tensors, datasets, and linear regression. I’ve organized the content into clear, progressive modules, each with interactive Jupyter notebooks that make learning and experimentation easy.
 
-This repository is designed to demonstrate my skillset with practical, step-by-step approach to PyTorch. The notebooks cover:
+## Why This Repo Is a Strong Portfolio Piece
 
-- The basics of 1D and 2D tensors in PyTorch and related data types
-- Indexing, slicing, and manipulating tensors
-- Building and transforming custom datasets
-- Using pre-built datasets and torchvision transforms
-- Understanding PyTorch’s autograd system for derivatives and computational graphs
+- **Practical, Notebook-Centric Learning:** I’ve developed and structured each topic as a Jupyter notebook, allowing anyone (including myself) to interactively run, modify, and explore the code.
+- **Clear Progression:** I start with the basics of tensor operations and build up to more advanced topics like gradient descent and mini-batch training, mimicking real-world learning and project workflows.
+- **Mastery of PyTorch:** This project demonstrates my ability to work with one of the most popular deep learning frameworks in the industry.
+- **Applied Data Science Skills:** I tackle dataset creation, transformation, and model training—all essential skills for AI and data science.
+- **Portfolio-Ready Artifacts:** Each notebook stands alone as a demonstration of my technical and analytical skills.
 
+## Contents
 
----
+### 1. Tensor and Datasets
+- `1D tensors.ipynb`
+- `Datasets and transforms.ipynb`
+- `Pre-Built Datasets and transforms.ipynb`
+- `Two-Dimensional Tensors.ipynb`
+- `derivatives and Graphs in Pytorch.ipynb`
+- `simple data set.ipynb`
 
-## Notebooks
+### 2. Linear Regression
+- `Linear Regression 1D Prediction.ipynb`
+- `Linear Regression One Parameter.ipynb`
+- `Training Slope&Bias (explaination).ipynb`
+- `Training Slope&Bias.ipynb`
 
-### 1. **1D tensors.ipynb**
-Learn the basics of 1-dimensional tensors in PyTorch:
-- Creating tensors from lists, numpy arrays, and pandas Series
-- Type conversion (int, float, etc.) and reshaping with `.view()`
-- Indexing, slicing, and conversion between tensor and list/numpy
-- Practical tips for working with 1D data
-
-### 2. **Two-Dimensional Tensors.ipynb**
-Dive into 2D tensors (matrices):
-- Creating and manipulating 2D tensors
-- Shape, dimension, and element count operations
-- Conversion to/from numpy arrays and pandas DataFrames
-- Indexing, slicing, and common tensor operations (addition, multiplication, matrix multiplication)
-
-### 3. **simple data set.ipynb**
-Build your own custom dataset:
-- Creating a PyTorch `Dataset` class from scratch
-- Custom transforms and composing transforms
-- Applying and chaining multiple transformations
-- Iterating over datasets and understanding dataset length and indexing
-
-### 4. **Datasets and transforms.ipynb**
-Work with real-world datasets and data preprocessing:
-- Downloading and unpacking the FashionMNIST dataset
-- Loading data into pandas DataFrames
-- Mapping numerical labels to descriptive categories
-- Inspecting and visualizing dataset structure
-
-### 5. **Pre-Built Datasets and transforms.ipynb**
-Explore torchvision datasets and image transformations:
-- Using prebuilt datasets like MNIST
-- Applying and composing image transforms (crop, flip, etc.)
-- Visualizing transformed images
-- Practical usage of `torchvision.transforms.Compose`
-
-### 6. **derivatives and Graphs in Pytorch.ipynb**
-Understand PyTorch’s autograd and computational graphs:
-- Computing derivatives and gradients with `requires_grad`
-- Understanding leaf tensors, backward passes, and gradients
-- Custom autograd functions
-- Visualizing functions and their derivatives
-- Partial derivatives and working with functions of multiple variables
-
----
+### 3. Linear Regression PyTorch
+- `Linear Regression Training & Validation Data.ipynb`
+- `Mini-Batch Gradient Descent.ipynb`
+- `Stohastic Gradiant Descent (SGD).ipynb`
+- `Two Parameter Mini-Batch Gradient Descent.ipynb`
 
 ## Getting Started
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/usafhulk/Neural-Networks-with-PyTorch-Tensor-and-Datasets.git
-   cd Neural-Networks-with-PyTorch-Tensor-and-Datasets
-2. **Install dependencies:**
+If you want to dive in and explore these notebooks yourself:
 
-- Python 3.7 or newer
-- PyTorch
-- torchvision
-- numpy, pandas, matplotlib, jupyter
-3. **Install with pip:**
+### Clone the repository:
+```bash
+git clone https://github.com/usafhulk/Neural-Networks-with-PyTorch-Tensor-and-Datasets.git
+cd Neural-Networks-with-PyTorch-Tensor-and-Datasets
+```
+
+### Set up your environment:
+I recommend using a virtual environment:
 
 ```bash
-pip install torch torchvision numpy pandas matplotlib jupyter
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
 ```
-3. **Run the notebooks:**
+
+If `requirements.txt` isn’t included, you can install the basics:
+
+```bash
+pip install torch torchvision matplotlib jupyter
+```
+
+### Run the notebooks:
+Launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
-Open the notebook you want to explore and follow the instructions inside.
 
-**Contributing**
-Contributions, suggestions, and corrections are welcome!
-Feel fre to open issues or pull requests to improve the materials or add new learning resources.
+Then open any notebook you want from your browser.
+
+### Experiment and learn:
+All notebooks are independent. Feel free to run, tweak, and build on them to deepen your understanding of neural networks and PyTorch.
+
 ---
 
+Let me know if you want to personalize this even further or add a message to recruiters or collaborators!

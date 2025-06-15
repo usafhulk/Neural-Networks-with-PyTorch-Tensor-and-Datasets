@@ -1,0 +1,15 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.22
+matplotlib>=3.6
+pandas>=1.4
+scikit-learn>=1.1
+jupyterlab>=3.5
+notebook>=6.5
+seaborn>=0.12         
+tqdm>=4.64            
+ipywidgets>=8.0     
+plotly>=5.10         
+
+To Install requirements.txt
+pip install -r requirements.txt
